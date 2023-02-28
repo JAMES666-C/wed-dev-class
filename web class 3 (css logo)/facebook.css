@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #4267b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    
+}
+.facebook::after {
+    content: 'f';
+    font-size: 120px;
+    font-weight: bold;
+    padding-left: 35px;
+    color: #4267b2;
+}
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+    position: absolute;
+    
+}
+.box {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 15px;
+    
+
+}
+.box:nth-of-type(2) {
+    opacity: 0.5;
+}
+.box:nth-of-type(3) {
+    opacity: 0.3;
+}
+.box:nth-of-type(4) {
+    opacity: 0.1;
+}

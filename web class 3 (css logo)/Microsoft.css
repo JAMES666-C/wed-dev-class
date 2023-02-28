@@ -1,0 +1,28 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+.box:first-of-type {
+    background-color: #f65314;
+    display: inline-block;
+}
+.box:nth-of-type(2) {
+    background-color: #7cbb00;
+    display: inline-block;
+}
+.box:nth-of-type(3) {
+    background-color: #00a1f1;
+    display: inline-block;
+}
+.box:last-of-type {
+    background-color: rgb(255, 187, 0);
+    display: inline-block;
+}
+.container::after {
+    content: 'Microsoft';
+    font-size: 60px;
+    position: absolute;
+    top: 70px;
+
+}

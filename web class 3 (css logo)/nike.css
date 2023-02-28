@@ -1,0 +1,36 @@
+.nike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+}
+
+.nike::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 570px;
+    background: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    transform: rotate(-105deg);
+    top: -300px;
+    left: 210px;
+    border-top-left-radius: 60px 110px;
+    border-top-right-radius: 130px 230px;
+}
+
+.nike::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 550px;
+    background: #000;
+    transform: rotate(-100deg);
+    top: -250px;
+    left: 190px;
+    transform: rotate(-111deg);
+    border-top-left-radius: 60px 110px;
+    border-top-right-radius: 130px 220px;
+}
